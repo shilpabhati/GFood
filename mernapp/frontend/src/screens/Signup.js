@@ -7,7 +7,7 @@ export default function Signup() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch("http://localhost:5000/api/creatuser", {
+        const response = await fetch("https://gofood2-mzoq.onrender.com/api/creatuser", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
