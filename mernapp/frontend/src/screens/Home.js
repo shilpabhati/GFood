@@ -11,7 +11,7 @@ export default function Home() {
 
   const loadData = async () => {
     //console.log('fetchingAPI')
-    let response = await fetch("http://gofood2-mzoq.onrender.com", {
+    let response = await fetch("http://localhost:5000/api/foodData", {
       //"http://localhost:5000/api/foodData"
       method: "POST",
       headers: {
