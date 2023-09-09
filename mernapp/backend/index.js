@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.port
+const port = process.env.PORT
 const mongoDB = require("./db")
 mongoDB();
 
